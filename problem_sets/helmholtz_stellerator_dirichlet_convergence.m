@@ -3,7 +3,9 @@
 %  of the solution to the Helmholtz dirichlet problem
 %  in the exterior of the stellarator and compare the
 %  it to the expected $O(h^{p-1})
+%  
 %
+%  todo: convert sphere code to stellarator later
 
 %  Base number of quad patches in each direction
 nu_base = 5;

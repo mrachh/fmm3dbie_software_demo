@@ -1,17 +1,10 @@
 % 
 %  This file illustrates the computation of Helmholtz layer potentials
-%  on spheres in three dimensions and compares them to analytically 
-%  known solutions.
+%  on a smooth boxed torus stored as a go3 file and compares 
+%  them to analytically known solutions.
 %
-%  Then solve a boundary value problem due to an interior point source
-%
-%  Todo: convert the interior point source test to a plane wave test
-%        and demo exact solution, refer to same referene pdf
-%
-% Additional dependencies: chebfun
 %
 addpath(genpath('~/git/fmm3dbie/matlab'))
-addpath(genpath('~/git/chebfun'))
 
 % Load boxed torus mesh
 % norder is the order of discretization
